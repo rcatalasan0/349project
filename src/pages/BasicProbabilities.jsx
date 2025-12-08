@@ -16,12 +16,12 @@ const Navigation = () => {
                 <div className="dropdown">
                     <button className="dropbtn">Menu ▾</button>
                     <div className="dropdown-content">
-                        <a href="/" className="nav-link">Basic Probabilities</a> 
-                        <a href="/advanced" className="nav-link">Advanced Probabilities</a> 
-                        <a href="/combinatorics" className="nav-link">Combinatorics</a>
+                        <a href="#/" className="nav-link">Basic Probabilities</a> 
+                        <a href="#/advanced" className="nav-link">Advanced Probabilities</a> 
+                        <a href="#/combinatorics" className="nav-link">Combinatorics</a>
                     </div>
                 </div>
-                <a href="/" className="nav-link">Home</a>
+                <a href="#/" className="nav-link">Home</a>
             </nav>
         </header>
     );
